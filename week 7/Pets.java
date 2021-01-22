@@ -1,4 +1,4 @@
-public class Pet {
+public class Pets {
     String name;
     String species;
     String color;
@@ -8,10 +8,10 @@ public class Pet {
     int run;
     String can;
 
-    public Pet(){
+    public Pets(){
 
     }
-public Pet(String name,String species,String color,int age){
+public Pets(String name,String species,String color,int age){
     this.name = name;
     this.species = species;
     this.color = color;

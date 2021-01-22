@@ -1,8 +1,8 @@
-public class Main {
+public class Mains {
     public static void main(String[] args) {
-        Dog dog = new Dog("FlashDog","Puddle",100,"rainbow",100,"hong hong");
-        Fish fish = new Fish("FlashFish","Mackerel",50,"rainbow",100,"Fastest");
-        Bird bird = new Bird("Liverpool","Liver bird",129,"red",100,"Fastest");
+        Dogs dog = new Dogs("FlashDog", "Puddle", 100, "rainbow", 100, "hong hong");
+        Fishs fish = new Fishs("FlashFish","Mackerel",50,"rainbow",100,"Fastest");
+        Birds bird = new Birds("Liverpool","Liver bird",129,"red",100,"Fastest");
         
         System.out.println("My dog");
         dog.hair = "Short hair";

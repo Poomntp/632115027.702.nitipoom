@@ -1,8 +1,8 @@
-public class Fish extends Pet {
+public class Fishs extends Pets {
     String size;
     String water;
     int speed;
-    public  Fish(String name,String species,int age,String color,int run,String can) {
+    public  Fishs(String name,String species,int age,String color,int run,String can) {
         this.name = name;
         this.species = species;
         this.age = age;

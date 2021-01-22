@@ -1,7 +1,7 @@
-public class Dog extends Pet {
+public class Dogs extends Pets {
     String size;
     String hair;
-    public  Dog(String name,String species,int age,String color,int run,String can) {
+    public  Dogs(String name,String species,int age,String color,int run,String can) {
         this.name = name;
         this.species = species;
         this.age = age;

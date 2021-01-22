@@ -1,10 +1,10 @@
-public class Bird extends Pet {
+public class Birds extends Pets {
     String country;
     String fly;
     int speed;
     String size;
 	public String isCanFly;
-    public  Bird(String name,String species,int age,String color,int run,String can) {
+    public  Birds(String name,String species,int age,String color,int run,String can) {
         this.name = name;
         this.species = species;
         this.age = age;
